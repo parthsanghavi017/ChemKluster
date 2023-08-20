@@ -27,8 +27,10 @@ Please make sure your CSV file has the following format:
 - The CSV should have at least two columns: 'ID' and 'SMILES'.
 - 'ID' column should contain molecule identifiers.
 - 'SMILES' column should contain valid SMILES strings representing the molecules.
+    
+Demo File link (Download as CSV)
 
-         to upload a demo file click on this link https://drive.google.com/file/d/1-NyLsUneGRuLpjCS0LzxvDcQPlnkuyxh/view?usp=sharing 
+        https://drive.google.com/file/d/1-NyLsUneGRuLpjCS0LzxvDcQPlnkuyxh/view?usp=sharing 
 After uploading the CSV file and specifying the range of K values for clustering, click the 'Run' button to perform clustering and visualize the results for each K value.
 """)
 st.subheader("By Parth B Sanghavi")
