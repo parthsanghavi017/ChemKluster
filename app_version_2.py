@@ -20,17 +20,16 @@ st.header("Molecule Clustering App")
 
 # Introduction to the app
 st.write("""
-
 This app allows you to upload a CSV file containing molecule data with valid SMILES strings. You can then perform K-means clustering on the molecules and visualize the clusters along with their Scaffold MCS.
 
 Please make sure your CSV file has the following format:
 - The CSV should have at least two columns: 'ID' and 'SMILES'.
 - 'ID' column should contain molecule identifiers.
 - 'SMILES' column should contain valid SMILES strings representing the molecules.
-    
-Demo File link (Download as CSV)
 
-        https://drive.google.com/file/d/1-NyLsUneGRuLpjCS0LzxvDcQPlnkuyxh/view?usp=sharing 
+Demo File link (Download as CSV):
+[Download Demo CSV File](https://drive.google.com/uc?export=download&id=1-NyLsUneGRuLpjCS0LzxvDcQPlnkuyxh)
+
 After uploading the CSV file and specifying the range of K values for clustering, click the 'Run' button to perform clustering and visualize the results for each K value.
 """)
 st.subheader("By Parth B Sanghavi")
