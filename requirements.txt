@@ -1,5 +1,4 @@
 
-/home/adminuser/venv/bin/python -m pip install --upgrade pip
 
 streamlit==1.25.0
 pandas==2.0.3
