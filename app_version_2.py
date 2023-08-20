@@ -1,4 +1,4 @@
-$pip install rdkit
+!pip install rdkit
 
 import streamlit as st
 import pandas as pd
