@@ -1,6 +1,9 @@
+
+/home/adminuser/venv/bin/python -m pip install --upgrade pip
+
 streamlit==1.25.0
 pandas==2.0.3
 numpy==1.25.2
-rdkit-pypi==2023.3.2
+rdkit-pypi==2021.3.2.3
 scikit-learn==1.3.0
 matplotlib==3.7.2
