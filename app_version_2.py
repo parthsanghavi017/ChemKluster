@@ -32,7 +32,7 @@ Demo File link (Download as CSV):
 
 After uploading the CSV file and specifying the range of K values for clustering, click the 'Run' button to perform clustering and visualize the results for each K value.
 """)
-st.subheader("By Parth B Sanghavi")
+st.subheader("By Afroz and Parth")
 
 # Function to highlight molecules
 def highlight_molecules(molecules, molecule_names, mcs, number, label=True, same_orientation=True, **kwargs):
