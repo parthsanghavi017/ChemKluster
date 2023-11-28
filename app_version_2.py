@@ -195,21 +195,17 @@ def main():
 
 
 
-
                 # Save scaffold and cluster images, and generate cluster assignment CSV
                 folder_name = f"cluster_k{k}_files"
                 os.makedirs(folder_name, exist_ok=True)
 
-                # ... (rest of the code for saving images and cluster assignment CSV)
+            
 
                 # Create a zip file for each K value containing all relevant files
                 with ZipFile(f"{folder_name}.zip", "w") as zipf:
                     for file_path in [f"{folder_name}/{file}" for file in os.listdir(folder_name)]:
                         zipf.write(file_path, os.path.basename(file_path))
 
-                # Provide download link for the zip file
-                zip_href = f'<a href="{folder_name}.zip" download="{folder_name}.zip">Download all files for K={k}</a>'
-                st.markdown(zip_href, unsafe_allow_html=True)
 
                 # Display cluster counts
                 st.subheader(f"Cluster Counts (K={k})")
