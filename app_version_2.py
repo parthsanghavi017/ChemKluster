@@ -142,6 +142,9 @@ def main():
     if uploaded_file is not None:
         mol_df = pd.read_csv(uploaded_file)
 
+        # Drop duplicates based on 'SMILES' column
+        mol_df.drop_duplicates(subset='SMILES', inplace=True)
+
         # Only keep molecules with valid SMILES
         mol_df = mol_df.dropna(subset=['SMILES'])
 
